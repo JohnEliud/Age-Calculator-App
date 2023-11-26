@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.container {
+  background-color: #fff;
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+h1,
+p {
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+input {
+  padding: 5px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: 0;
+  margin: 40px auto 20px;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container .outer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .div2 {
+  width: 100%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.div2 div {
+  display: grid;
+}
+
+#ageDisplay,
+#dateOfBirth,
+#currentDate {
+  font-weight: 500;
+  color: #4caf50;
+}
